@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist", // Папка для JS-файлов
+      "rootDir": "./src", // Папка для исходных TS-файлов
+      "strict": true,
+      "module": "commonjs",
+      "target": "ESNext",
+      "esModuleInterop": true
+    },
+    "include": ["src/**/*.ts", "../tests/**/*.test.ts"], // Включить файлы TypeScript из папки src
+    "exclude": ["node_modules", "dist"] // Исключить лишние файлы
+  }
